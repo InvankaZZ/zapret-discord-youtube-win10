@@ -10,8 +10,10 @@
 > [!CAUTION]
 >
 > ### ФЕЙКИ
-> Я не веду никакие другие страницы/группы в телеграм/ютуб каналы  
-> Если вы наткнулись на что-то вне этой страницы гитхаба, что распространяется от моего лица - **ФЕЙК**.
+> Flowseal не ведет другие страницы/группы в телеграм/ютуб каналы  
+> Если вы наткнулись на что-то вне страницы оригинального репозитория и этой копией, что распространяется от лица Flowseal - **ФЕЙК**.
+### ИНФО
+> Этот репозиторий является КОПИЕЙ оригинального, специально настроенного под Windows 7
 
 > [!IMPORTANT]
 > Все исполняемые и системные файлы в папке [`bin`](./bin) взяты из [zapret-win-bundle/zapret-winws](https://github.com/bol-van/zapret-win-bundle/tree/master/zapret-winws) и [zapret/releases](https://github.com/bol-van/zapret/releases). Вы можете это проверить с помощью хэшей/контрольных сумм.
@@ -86,7 +88,11 @@
 
 - После запуска стратегии (отдельным bat файлом, не через service), должен открыться winws.exe (обход), который можно увидеть в панели задач.  
 Если этого не произошло, то см. [#522](https://github.com/Flowseal/zapret-discord-youtube/issues/522)
+- Пробуйте запустить Zapret в тестовом режиме открыв командную строку и вписав bcdedit.exe -set TESTSIGNING ON нажмите Enter и перезапустите компьютер.
 
+### Что это за репозиторий? Вирусы?
+- Этот репозиторий является копией оригинала, специально настроенного под Windows 7.
+- Вирусов нигде нет. Если ваш антивирус ругается на WinDivert, добавьте его в исключения.
 ### Ни одна стратегия не подходит
 - Запустите командную строку от имени администратора
 - Последовательно введите команды в консоль:
@@ -227,6 +233,6 @@ sc delete название_из_первого_шага
 
 ## 🩷Благодарность участникам проекта
 
-[![Contributors](https://contrib.rocks/image?repo=Flowseal/zapret-discord-youtube)](https://github.com/Flowseal/zapret-discord-youtube/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=Flowseal/zapret-discord-youtube)](https://github.com/Flowseal/zapret-discord-youtube/graphs/contributors) (FLOWSEAL)
 
-💖 Отдельная благодарность разработчику [zapret](https://github.com/bol-van/zapret) - [bol-van](https://github.com/bol-van)
+💖 Отдельная благодарность разработчику [zapret](https://github.com/bol-van/zapret) - [bol-van](https://github.com/bol-van) - [ValdikSS](https://github.com/ValdikSS)
